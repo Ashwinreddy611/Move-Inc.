@@ -1,0 +1,45 @@
+
+/*-------------colours*/
+.bg-header-color {
+    background-color: #12191d;
+}
+/*--------------------Special Padding/Margins/Texts*/
+
+/*--------------------Heading*/
+header {
+    margin: 0;
+}
+.heading {
+    margin: auto;
+    padding: 20px;
+}
+
+#logo {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 600%;
+    color: #fafafa;
+    text-align: left;
+}
+
+.col-md-6 a {
+    text-decoration: none;
+}
+#logo-quote {
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+    font-size: 300%;
+    font-weight: 300;
+    font-style: italic;
+    color: #fafafa;
+}
+
+.nav {
+    background-color: #fafafa;
+}
+
+.nav-link {
+    color: #12191d;
+    font-size: 18px;
+}
+
