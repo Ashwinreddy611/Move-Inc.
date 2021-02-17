@@ -3,8 +3,15 @@
 .bg-header-color {
     background-color: #12191d;
 }
+.bg-footer-color {
+    background-color: #77a6f7;
+}
 /*--------------------Special Padding/Margins/Texts*/
-
+.sub-text{
+    font-family:"lato", sans-serif;
+    font-weight: 200;
+    color: #12191d;
+}
 /*--------------------Heading*/
 header {
     margin: 0;
@@ -42,4 +49,39 @@ header {
     color: #12191d;
     font-size: 18px;
 }
+
+/*---------------------------Footer*/
+
+#footer-quote {
+    padding: 15px;
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.socials li a i {
+    width: 20px;
+    height: 20px;
+    font-size: 45px;
+    text-emphasis: center;
+    margin: 30px;
+    color: #12191d;
+    transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -webkit-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
+}
+
+.list-inline-item{
+    transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -webkit-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;
+}
+.list-inline-item i:hover {
+    color: #fafafa;
+}
+
 
