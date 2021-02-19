@@ -24,7 +24,7 @@ header {
 #logo {
     font-family: "Anton", sans-serif;
     font-weight: 400;
-    font-size: 600%;
+    font-size: 6.5vw;
     color: #fafafa;
     text-align: left;
 }
@@ -35,7 +35,7 @@ header {
 #logo-quote {
     font-family: "Montserrat", sans-serif;
     text-align: right;
-    font-size: 300%;
+    font-size: 3.5vw;
     font-weight: 300;
     font-style: italic;
     color: #fafafa;
@@ -47,7 +47,7 @@ header {
 
 .nav-link {
     color: #12191d;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
 /*---------------------------Footer*/
@@ -64,7 +64,7 @@ header {
 .socials li a i {
     width: 40px;
     height: 40px;
-    font-size: 45px;
+    font-size: 50px;
     text-emphasis: center;
     margin: 20px;
     color: #12191d;
@@ -85,15 +85,33 @@ header {
 }
 
 /*--------------------Index.html body*/
-
 .sub-title {
     font-family: "Anton", sans-serif;
-    font-weight: 200;
+    font-weight: 200%;
+    font-size: 50px;
     text-align: center;
+    padding-top:10px;
+    color:#fafafa;
+    background-color: black;
+    margin:1px;
+    
 }
 
 #mission-statement {
     font-family: "Lato", sans-serif;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items:center;
     text-align: center;
-    
+    line-height: 50px;
+    font-size: 30px;
+    background-image:url("../Images/home-image.jpg");
+    background-size: 100%;
+    background-position: center;
+    min-height: 500px;
+    background-repeat: no-repeat;
+
 }
+
+/*--------------------Media Queries*/
