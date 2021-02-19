@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=montserrat&display=swap"
         rel="stylesheet">
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <title>Move Inc.</title>
 </head>
 
@@ -51,16 +52,26 @@
         </div>
     </header>
     <section>
+        <div class="col-sm-12">
+            <h2 class="sub-title">Mission Statement</h2>
+            <p id="mission-statement">
+                Move Inc. is an educational and motivational organisation dedicated
+            to providing the tools and support for you to start your journey to
+            a healthier and happier mind and body. Everything we do is
+            supported by a strong scientific foundation so you can be sure you're
+            getting the best information to inspire your lifestyle change.
+            </p>
+        </div>
         <!--<h1>Mission Statement</h1>
         <p>
             Move Inc. is an educational and motivational organisation dedicated
             to providing the tools and support for you to start your journey to
-            a healthier and happier mind, body and soul. Everything we do is
+            a healthier and happier mind and body. Everything we do is
             supported by a strong scientific foundation so you can be sure you're
             getting the best information to inspire your lifestyle change.
         </p>
         <h1>Testimonials</h1> -->
-    </section> 
+    </section>
     <footer class="container-fluid bg-footer-color">
         <div class="row" id="footer-quote">
             <div class="col-sm-4 inline-block sub-text">
@@ -84,40 +95,47 @@
             </div>
             <div class="col-sm-4 inline-block sub-text">
                 <h4>Join Our Newsletter!</h4>
-                <p>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse show" data-target="#newsletter">
+                
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newsletter-Modal">
                         Sign Up!
                     </button>
-                </p>
-                <div class="collapse show" id="newsletter">
-                    <div class="card card-body">
-                        <form>
-                            <label for="Name"></label>
-                            <input type="text" name="Name" placeholder="Enter your Full Name" required>
-                            <label for="password"></label>
-                            <input type="email" name="password" placeholder="Enter your Email">
-                            <input type="submit">
-                        </form>
+                    <div class="modal fade" id="newsletter-Modal" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="newsletter-Modal-label" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="newsletter-Modal-label">Never Miss An Update!</h5>
+                                    <button type="button" class="btn-close" data-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <label for="Name"></label>
+                                        <input type="text" name="Name" placeholder="Enter your Full Name">
+                                        <label for="password"></label>
+                                        <input type="email" name="password" placeholder="Enter your Email">
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Join Now!</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
-<!------<div class="row">
-                    <div class="col">
-                        <div class="collapse">
-                            <form>
-                                <label for="Name"></label>
-                                <input type="text" name="Name" placeholder="Enter your Full Name">
-                                <label for="password"></label>
-                                <input type="email" name="password" placeholder="Enter your Email">
-                                <input type="submit">
-                            </form>
-                        </div>
-                    </div>
-                </div> --->

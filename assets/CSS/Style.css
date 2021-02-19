@@ -62,11 +62,11 @@ header {
 }
 
 .socials li a i {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     font-size: 45px;
     text-emphasis: center;
-    margin: 30px;
+    margin: 20px;
     color: #12191d;
     transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
@@ -75,13 +75,25 @@ header {
 }
 
 .list-inline-item{
-    transition: all 0.35s ease-in-out;
-      -moz-transition: all 0.35s ease-in-out;
-      -webkit-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
+    transition: all 0.45s ease-in-out;
+      -moz-transition: all 0.45s ease-in-out;
+      -webkit-transition: all 0.45s ease-in-out;
+      -o-transition: all 0.45s ease-in-out;
 }
 .list-inline-item i:hover {
     color: #fafafa;
 }
 
+/*--------------------Index.html body*/
 
+.sub-title {
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+#mission-statement {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    
+}
