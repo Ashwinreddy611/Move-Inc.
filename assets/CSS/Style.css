@@ -136,6 +136,8 @@ header {
     min-height: 400px;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tile {
@@ -173,12 +175,26 @@ header {
     overflow: hidden;
 }
 
-.t-img {
-    width: 160px;
-    float: left;
-    padding-top: 30px;
+#t-img-samuel {
+    height: 120px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
+#t-img-ben {
+    height: 120px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#t-img-linda {
+    height: 120px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
 
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
