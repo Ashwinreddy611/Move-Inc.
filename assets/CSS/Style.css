@@ -13,10 +13,16 @@
     color: #12191d;
 }
 
-.sub-text-alt {
-    font-family:"lato", sans-serif;
-    font-weight: 200;
-    color: #fafafa;
+.sub-title-acc {
+    font-family: "Anton", sans-serif;
+    font-weight: 50%;
+    font-size: 35px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:#fafafa;
+    background-color: #12191d;
+    margin: 0;
 }
 
 .section-container {
