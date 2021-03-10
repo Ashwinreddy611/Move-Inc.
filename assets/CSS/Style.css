@@ -12,10 +12,21 @@
     font-weight: 200;
     color: #12191d;
 }
+.sub-text-jb {
+    font-family:"lato", sans-serif;
+    font-weight: 200;
+    color: #fafafa;
+    font-size: 150%
+}
+.sub-title-jb {
+    font-family: "Anton", sans-serif;
+    font-size: 400%;
+    text-align: left;
+    color: #fafafa;
+}
 
 .sub-title-acc {
     font-family: "Anton", sans-serif;
-    font-weight: 50%;
     font-size: 35px;
     text-align: center;
     padding-top:10px;
@@ -229,6 +240,12 @@ header {
     color:#fafafa;
 }
 
+/*--------------------Nutrition.html body*/
+.jumbotron {
+    background-image: url(../Images/food.jpg);
+    background-size: cover;
+    height: 400px;
+}
 
 
 
