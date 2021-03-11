@@ -1,28 +1,28 @@
 
 /*-------------colours*/
 .bg-header-body-color {
-    background-color: #12191d;
+    background-color: black;
 }
 .bg-footer-color {
-    background-color: #77a6f7;
+    background-color: #FED000;
 }
 /*--------------------Special Padding/Margins/Texts*/
 .sub-text{
     font-family:"lato", sans-serif;
     font-weight: 200;
-    color: #12191d;
+    color: black;
 }
 .sub-text-jb {
     font-family:"lato", sans-serif;
     font-weight: 200;
-    color: #fafafa;
+    color: #FED000;
     font-size: 150%
 }
 .sub-title-jb {
     font-family: "Anton", sans-serif;
     font-size: 400%;
     text-align: left;
-    color: #fafafa;
+    color: #FED000;
 }
 
 .sub-title-acc {
@@ -31,8 +31,8 @@
     text-align: center;
     padding-top:10px;
     padding-bottom: 10px;
-    color:#fafafa;
-    background-color: #12191d;
+    color:#FED000;
+    background-color: black;
     margin: 0;
 }
 
@@ -48,8 +48,8 @@
 
 .testimonials-block li {
     width: 33%;
-    background-color: #12191d;
-    border: 15px #fafafa;
+    background-color: black;
+    border: 15px #FED000;
     
 }
 
@@ -76,7 +76,7 @@ header {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-size: 6.5vw;
-    color: #fafafa;
+    color: #FED000;
     text-align: left;
 }
 
@@ -88,7 +88,7 @@ header {
     text-align: right;
     font-size: 3.5vw;
     font-weight: 300;
-    color: #fafafa;
+    color: #FED000;
 }
 
 .nav {
@@ -96,9 +96,14 @@ header {
 }
 
 .nav-link {
-    color: #12191d;
+    color: black;
     font-size: 20px;
 }
+
+.nav-item a:hover {
+    color: #FED000;
+}
+
 
 /*---------------------------Footer*/
 
@@ -117,7 +122,7 @@ header {
     font-size: 50px;
     text-emphasis: center;
     margin: 20px;
-    color: #12191d;
+    color: black;
     transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
       -webkit-transition: all 0.35s ease-in-out;
@@ -125,7 +130,7 @@ header {
 }
 
 .list-inline-item i:hover {
-    color: #fafafa;
+    color:#fafafa;
 }
 
 /*--------------------Index.html body*/
@@ -137,32 +142,21 @@ header {
     text-align: center;
     padding-top:10px;
     padding-bottom: 10px;
-    color:#fafafa;
-    background-color: #12191d;
+    color:#FED000;
+    background-color: #fafafa;
     margin: 0;
 }
 
-#mission-statement {
+#mission-statement .jumbotron {
     font-family: "Lato", sans-serif;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    text-align: center;
-    line-height: 50px;
-    font-size: 30px;
-    background-image:url(../Images/home-image.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    min-height: 500px;
+    color: #FED000;
+    font-size: 100%;
+    background-color: black;
+    height: 400px;
 }
 
 .tile {
-    background-color: #12191d;
+    background-color: black;
     min-height: 220px;
     min-width:200px;
     padding: 0px;
@@ -170,7 +164,7 @@ header {
 }
 
 .tile-number {
-    color: #fafafa;
+    color: #FED000;
     font-family: "Anton", sans-serif;
     text-align: center;
     font-size: 300%;
@@ -184,7 +178,7 @@ header {
     text-align: left;
     float: right;
     font-family: "Lato", sans-serif;
-    color: #fafafa;
+    color: #FED000;
 }
 
 .blockquote p {
@@ -219,7 +213,7 @@ header {
 
 .card-body {
     font-size: 120%;
-    background-color: #12191d;
+    background-color: black;
     height: 230px;
     display: flex;
     align-items: center;
@@ -237,17 +231,34 @@ header {
     padding-left: 15px;
     font-size: 120%;
     display: inline-block;
-    color:#fafafa;
+    color:#FED000;
+}
+
+.card .card-body:hover {
+    color: #FED000;
 }
 
 /*--------------------Nutrition.html body*/
-.jumbotron {
-    background-image: url(../Images/food.jpg);
+#nutrition-jb .jumbotron {
+    background-image: url(../Images/Nutrition/food.jpg);
     background-size: cover;
     height: 400px;
 }
 
+.card-img-top {
+    height: 400px;
+    width: center;
+}
 
+.card-body {
+    display: block;
+    color: #fafafa;
+}
+
+.card .card-body a:hover {
+    background-color: #FED000;
+    color: #fafafa;
+}
 
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
