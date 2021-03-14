@@ -129,9 +129,11 @@ header {
       -o-transition: all 0.35s ease-in-out;
 }
 
+
 .list-inline-item i:hover {
     color:#fafafa;
 }
+
 
 /*--------------------Index.html body*/
 
@@ -161,6 +163,7 @@ header {
     min-width:200px;
     padding: 0px;
     margin: 0px;
+
 }
 
 .tile-number {
@@ -171,9 +174,6 @@ header {
     padding-top:20px;
 }
 
-.tile-img {
-    padding-top: 10px;
-}
 .blockquote {
     text-align: left;
     float: right;
@@ -240,7 +240,7 @@ header {
 
 /*--------------------Nutrition.html body*/
 #nutrition-jb .jumbotron {
-    background-image: url(../Images/Nutrition/food.jpg);
+    background-color: black;
     background-size: cover;
     height: 400px;
 }
@@ -250,7 +250,7 @@ header {
     width: center;
 }
 
-.card-body {
+.nutrition-body {
     display: block;
     color: #fafafa;
 }
@@ -259,6 +259,7 @@ header {
     background-color: #FED000;
     color: #fafafa;
 }
+
 
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
