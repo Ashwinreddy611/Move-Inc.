@@ -260,7 +260,10 @@ header {
     color: #fafafa;
 }
 
-
+#plan-jb .jumbotron {
+    background-color: black;
+    height: 400px;
+}
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
     #mission-statement {
