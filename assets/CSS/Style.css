@@ -6,6 +6,9 @@
 .bg-footer-color {
     background-color: #FED000;
 }
+.plan-bg {
+    background-color: black;
+}
 /*--------------------Special Padding/Margins/Texts*/
 .sub-text{
     font-family:"lato", sans-serif;
@@ -263,6 +266,74 @@ header {
 #plan-jb .jumbotron {
     background-color: black;
     height: 400px;
+}
+
+.progress {
+    height: 30px;
+    background-color:black;
+}
+.progress-bar{
+    height: 30px;
+    background-color: black;
+}
+
+.plan-title {
+    font-family: "Anton", sans-serif;
+    font-size: 45px;
+    color: #FED000;
+    font-style: italic;
+}
+.plan-txt {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+}
+.plan-txt-alt {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #FED000;
+}
+
+.line-break {
+    background-color:#FED000;
+}
+
+.line-break-plan {
+    background-color: #FED000;
+    border-left: 1px solid #FED000; 
+    height: 220px; 
+    position:absolute; 
+    left: 15%;
+}
+
+#plan-container {
+    overflow: hidden;
+}
+
+#plan-side-left {
+    float: left;
+    color: #FED000;
+    width: 10%;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#plan-side-right {
+    float: right;
+    width:80%;
+}
+
+
+.btn-plan {
+    color: #FED000;
+    background-color: black;
+    font-family: "Anton";
+    font-size: 40px;
+}
+
+.btn-plan:hover {
+    color: #fafafa;
 }
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
