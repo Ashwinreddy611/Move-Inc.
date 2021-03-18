@@ -52,7 +52,7 @@
         <div class="container-fluid px-0">
             <div class="col-12 px-0" id="nutrition-jb">
                 <div class="jumbotron jumbotron-fluid px-0">
-                    <div class="container">
+                    <div class="container" id="nutrition-statement">
                         <h1 class="display-4 sub-title-jb">Nutrition</h1>
                         <p class="lead sub-text-jb">There is an age old truth that states 90% of any body transformation
                             occurs in
@@ -65,7 +65,7 @@
         </div>
 
         <div class="card-group my-5">
-            <div class="card mx-2 col-sm-*">
+            <div class="card mx-2 col-sm-* nutrition-cards">
                 <img src="../assets/Images/Nutrition/meat.jpg" class="card-img-top " alt="...">
                 <div class="card-body nutrition-body">
                     <h5 class="card-title">Muscle Building</h5>
@@ -74,7 +74,7 @@
                     <a href="#" type="button" class="btn btn-outline-light" target="_blank">Read More!</a>
                 </div>
             </div>
-            <div class="card mx-3 col-sm-*">
+            <div class="card mx-3 col-sm-* nutrition-cards">
                 <img src="../assets/Images/Nutrition/veg.jpg" class="card-img-top" alt="...">
                 <div class="card-body nutrition-body">
                     <h5 class="card-title">Fat Loss</h5>
@@ -84,7 +84,7 @@
                     <a href="#" type="button" class="btn btn-outline-light" target="_blank">Read More!</a>
                 </div>
             </div>
-            <div class="card mx-2 col-sm-*">
+            <div class="card mx-2 col-sm-* nutrition-cards">
                 <img src="../assets/Images/Nutrition/toned.jpg" class="card-img-top" alt="...">
                 <div class="card-body nutrition-body">
                     <h5 class="card-title">Staying Toned</h5>
@@ -117,10 +117,11 @@
         <div class="container-fluid plan-bg">
             <h1 class="text-center plan-title">Natalie's profile wk beginning: 04/01/2021</h1>
             <div id="plan-container">
-                <div id="plan-side-left" class="mx-2 mt-4">
-                    <p>Natlie's Food Breakdown This Week</p>
+                <div id="plan-side-left" class="mx-2 mt-4 d-none d-lg-block d-xl-block">
+                    <p>Natlie's Food Breakdown This Week <em>(in grams)</em></p>
+
                 </div>
-                <hr class="line-break-plan">
+                <hr class="line-break-plan d-none d-lg-block d-xl-block">
                 <div id="plan-side-right" class="my-3">
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-warning plan-txt" role="progressbar"
@@ -149,23 +150,31 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="section-container">
             <p>
-                <button class="btn btn-lg btn-block btn-plan" type="button" data-toggle="collapse" data-target="#collapseExample"
-                    aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn btn-lg btn-block btn-plan py-3 mt-3" type="button" data-toggle="collapse"
+                    data-target="#plan-card-collapse" aria-expanded="false" aria-controls="PlanSignUp">
                     Sign Up Here!
                 </button>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="plan-card-collapse">
                 <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    <form>
+                        <div class="form-group plan-form sub-text-jb">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input type="name" class="form-control" id="plan-input-email"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"><em>We can't wait to get to work with you!</em></small>
+                        </div>
+                        <div class="form-group sub-text-jb">
+                            <label for="exampleInputPassword1">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
-
-
-
     </section>
     <footer class="container-fluid bg-footer-color">
         <div class="row" id="footer-quote">
