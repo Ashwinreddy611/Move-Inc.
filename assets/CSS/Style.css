@@ -152,8 +152,8 @@ header {
     margin: 0;
 }
 
-#mission-statement .jumbotron {
-    font-family: "Lato", sans-serif;
+#mission-jb .jumbotron {
+    
     color: #FED000;
     font-size: 100%;
     background-color: black;
@@ -331,22 +331,22 @@ header {
 .btn-plan:hover {
     color: #fafafa;
 }
+/*--------------------exercises.html*/
+#exercises-jb .jumbotron {
+    background-color: black;
+    background-size: cover;
+    height: 400px;
+}
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
     #mission-statement {
-        min-height: 80px;
-        font-size: 15px;
-        line-height: 22.5px;
-        background-size: center;
-        background-size: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        font-size: 12px;
     }
     .nav-link {
-        font-size: 10px;
+        font-size: 15px;
     }
     .sub-title {
-        font-size: 25px;
+        font-size: 35px;
         padding-bottom: 5px;
     }
     #logo {
@@ -359,8 +359,14 @@ header {
     .socials li a i {
         font-size: 35px;
     }
-    .t-img {
-        width:50px;
+    #t-img-samuel, #t-img-ben, #t-img-linda {
+        margin-left: 13px;
+    }
+    .blockquote {
+        padding-top: 20px;
+    }
+    .tile {
+        display: inline-flex;
     }
     .accordion-txt {
         font-size: 50%;
