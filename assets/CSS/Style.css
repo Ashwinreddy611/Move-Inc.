@@ -337,6 +337,21 @@ header {
     background-size: cover;
     height: 400px;
 }
+.carousel-inner {
+    height: 700px;
+}
+.carousel-item{
+    height: 700px;
+}
+
+.carousel-caption {
+    color: #FED000;
+    margin-bottom: 100px;
+    margin-right: 700px
+}
+
+
+
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
     #mission-statement {
