@@ -21,6 +21,15 @@
     color: #FED000;
     font-size: 150%
 }
+.sub-title {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    color:#FED000;
+    margin: 0;
+}
 .sub-title-jb {
     font-family: "Anton", sans-serif;
     font-size: 400%;
@@ -58,7 +67,6 @@
 
 .list-inline-item span {
     font-size: 30px;
-    float: centre;
 }
 
 .img-fluid {
@@ -123,7 +131,6 @@ header {
     width: 40px;
     height: 40px;
     font-size: 50px;
-    text-emphasis: center;
     margin: 20px;
     color: black;
     transition: all 0.35s ease-in-out;
@@ -140,20 +147,9 @@ header {
 
 /*--------------------Index.html body*/
 
-.sub-title {
-    font-family: "Anton", sans-serif;
-    font-weight: 200%;
-    font-size: 50px;
-    text-align: center;
-    padding-top:10px;
-    padding-bottom: 10px;
-    color:#FED000;
-    background-color: #fafafa;
-    margin: 0;
-}
 
-#mission-jb .jumbotron {
-    
+
+#mission-jb .jumbotron {  
     color: #FED000;
     font-size: 100%;
     background-color: black;
@@ -350,7 +346,15 @@ header {
     margin-right: 700px
 }
 
+#video-critique-jb .jumbotron {
+    background-color: black;
+    height: 400px;
+}
 
+.video-critique a:hover {
+    background-color: #FED000;
+    color: white;
+}
 
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
