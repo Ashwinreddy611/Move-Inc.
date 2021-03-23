@@ -133,10 +133,6 @@ header {
     font-size: 50px;
     margin: 20px;
     color: black;
-    transition: all 0.35s ease-in-out;
-      -moz-transition: all 0.35s ease-in-out;
-      -webkit-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -153,7 +149,7 @@ header {
     color: #FED000;
     font-size: 100%;
     background-color: black;
-    height: 400px;
+    height: 375px;
 }
 
 .tile {
@@ -238,7 +234,7 @@ header {
 #nutrition-jb .jumbotron {
     background-color: black;
     background-size: cover;
-    height: 400px;
+    height: 375px;
 }
 
 .card-img-top {
@@ -327,11 +323,16 @@ header {
 .btn-plan:hover {
     color: #fafafa;
 }
+
+#plan-signup-btn:hover {
+    color:black;
+    background-color: #FED000;
+}
 /*--------------------exercises.html*/
 #exercises-jb .jumbotron {
     background-color: black;
     background-size: cover;
-    height: 400px;
+    height: 375px;
 }
 .carousel-inner {
     height: 700px;
@@ -355,6 +356,19 @@ header {
     background-color: #FED000;
     color: white;
 }
+/*--------------------contact.html*/
+#contact-jb .jumbotron {
+    background-color: black;
+    height: 375px;
+}
+
+#contact-form button:hover {
+    background-color: black;
+    color: #FED000;
+}
+
+
+
 
 /*--------------------Media Queries*/
 @media(max-width: 576px) {
