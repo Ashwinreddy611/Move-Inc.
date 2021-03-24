@@ -424,8 +424,34 @@ header {
     #plan-side-right {
         display: block;
         width:100%;
+    }
+    #exercises-statement {
+        height: 500px;
+        font-size: 12px;
+    }
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+    .carousel-inner {
+        height: 300px;
+    }
+    .carousel-item {
+        height: 350px;
+    }
+    #video-critique-jb .jumbotron {
+        height: 500px;
+        font-size: 12px;
+        margin-bottom: 300px;
+    }
+    #contact-jb {
+        height: 500px;
+        font-size: 12px;
+    }
+    #contact-thankyou-jb .jumbotron {
+        height:500px;
+    }
 }
-}
+
 
 @media (max-width:768px) {
     .blockquote p {
