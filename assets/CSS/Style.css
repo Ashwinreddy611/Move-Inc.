@@ -209,21 +209,24 @@ header {
 .card-body {
     font-size: 120%;
     background-color: black;
-    height: 350px;
+    height: 500px;
     width: 100%;
+    display: flex;
 }
 
 .card-body .accordion-img {
-    height: auto;
-    width: 25%;
-    
+    height: 100%;
+    width: 50%;
+    display: inline-flex;
 }
 
 .accordion-txt {
+    margin-top: 125px;
     padding-left: 15px;
     font-size: 120%;
-    display: inline-block;
     color:#FED000;
+    display: inline-flex;
+    text-align: center;
 }
 
 .card .card-body:hover {
@@ -408,6 +411,7 @@ header {
     .accordion-txt {
         font-size: 50%;
         padding-top: 10px;
+        display: inline-block;
     }
     .card-body .accordion-img {
         height: auto;
