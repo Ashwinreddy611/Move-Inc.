@@ -74,6 +74,12 @@
     height: auto;
 }
 
+.info-cards .info-card-body {
+    height: 350px;
+    display: inline-block;
+    color: white;
+}
+
 /*--------------------Heading*/
 header {
     margin: 0;
@@ -89,6 +95,7 @@ header {
     font-size: 6.5vw;
     color: #FED000;
     text-align: left;
+    padding-left: 10px;
 }
 
 .col-md-6 a {
@@ -98,12 +105,12 @@ header {
     font-family: "Lato", sans-serif;
     text-align: right;
     font-size: 3.5vw;
-    font-weight: 300;
+    font-weight: 150;
     color: #FED000;
 }
 
 .nav {
-    background-color: #fafafa;
+    background-color: white;
 }
 
 .nav-link {
@@ -244,7 +251,7 @@ header {
     height: 400px;
 }
 
-.nutrition-body {
+.info-body {
     display: block;
     color: #fafafa;
 }
@@ -294,7 +301,7 @@ header {
     border-left: 1px solid #FED000; 
     height: 220px; 
     position:absolute; 
-    left: 15%;
+    left: 25%;
 }
 
 #plan-container {
@@ -304,15 +311,16 @@ header {
 #plan-side-left {
     float: left;
     color: #FED000;
-    width: 10%;
+    width: 20%;
     font-family: "Lato", sans-serif;
     font-style: italic;
     font-size: 22px;
+    padding-left: 145px;
 }
 
 #plan-side-right {
     float: right;
-    width:75%;
+    width: 70%;
 }
 
 
@@ -375,6 +383,11 @@ header {
     height: 400px;
 }
 
+/*--------------------community.html*/
+#community-jb .jumbotron {
+    background-color: black;
+    height: 375px;
+}
 
 
 /*--------------------Media Queries*/
