@@ -323,7 +323,6 @@ header {
     width: 70%;
 }
 
-
 .btn-plan {
     color: #FED000;
     background-color: black;
@@ -436,7 +435,7 @@ header {
     }
    #nutrition-statement {
         height: 500px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #plan-jb .jumbotron {
@@ -459,7 +458,7 @@ header {
     }
     #exercises-statement {
         height: 500px;
-        font-size: 12px;
+        font-size: 13px;
     }
     .carousel-caption h5 {
         font-size: 25px;
@@ -477,12 +476,16 @@ header {
         font-size: 12px;
         margin-bottom: 300px;
     }
-    #contact-jb {
+    #contact-statement {
         height: 500px;
         font-size: 12px;
     }
     #contact-thankyou-jb .jumbotron {
         height:500px;
+    }
+    #community-statement {
+        height: 500px;
+        font-size: 12px;
     }
 }
 
