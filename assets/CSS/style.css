@@ -156,7 +156,7 @@ header {
     color: #FED000;
     font-size: 100%;
     background-color: black;
-    height: 375px;
+    height: 500px;
 }
 
 .tile {
@@ -165,7 +165,7 @@ header {
     min-width:200px;
     padding: 0px;
     margin: 0px;
-
+    display: inline-flex;
 }
 
 .tile-number {
@@ -177,40 +177,39 @@ header {
 }
 
 .blockquote {
-    text-align: left;
-    float: right;
     font-family: "Lato", sans-serif;
     color: #FED000;
 }
 
 .blockquote p {
-    width:240px;
-    margin-left: 15px;
-    font-size: 100%;
-    text-align: left;
-    float: right;
+    width:100%;
+    font-size: 17px;
+    display: inline-flex;
     overflow: hidden;
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-left:0px;
 }
 
 #t-img-samuel {
     height: 120px;
     width: 150px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 #t-img-ben {
     height: 120px;
     width: 150px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 #t-img-linda {
     height: 120px;
     width: 150px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .card-body {
@@ -393,6 +392,7 @@ header {
 @media(max-width: 576px) {
     #mission-statement {
         font-size: 12px;
+        height: 500px;
     }
     .nav-link {
         font-size: 15px;
@@ -412,10 +412,11 @@ header {
         font-size: 35px;
     }
     #t-img-samuel, #t-img-ben, #t-img-linda {
-        margin-left: 13px;
+        margin-left: 5px;
     }
-    .blockquote {
+    .blockquote p {
         padding-top: 20px;
+        font-size: 15px;
     }
     .tile {
         display: inline-flex;
@@ -491,14 +492,6 @@ header {
 
 
 @media (max-width:768px) {
-    .blockquote p {
-        font-size: 16px;
-        padding-top:30px;
-        padding-right: 5px;
-        margin-right: 10px;
-        text-align: center;
-        float: right;
-    }
     .t-img {
         display: block;
         margin: 10px;
@@ -516,6 +509,10 @@ header {
     }
     .card-img-top {
         height: 300px;
+    }
+    
+    .blockquote p {
+        font-size: 15px;
     }
    
     }
