@@ -1,5 +1,6 @@
 
 /*-------------colours*/
+
 .bg-header-body-color {
     background-color: black;
 }
@@ -10,6 +11,7 @@
     background-color: black;
 }
 /*--------------------Special Padding/Margins/Texts*/
+
 .sub-text{
     font-family:"lato", sans-serif;
     font-weight: 200;
@@ -58,12 +60,6 @@
     margin:0;
 }
 
-.testimonials-block li {
-    width: 33%;
-    background-color: black;
-    border: 15px #FED000;
-    
-}
 
 .list-inline-item span {
     font-size: 30px;
@@ -150,13 +146,11 @@ header {
 
 /*--------------------Index.html body*/
 
-
-
 #mission-jb .jumbotron {  
     color: #FED000;
     font-size: 100%;
     background-color: black;
-    height: 500px;
+    height: 375px;
 }
 
 .tile {
@@ -240,6 +234,7 @@ header {
 }
 
 /*--------------------Nutrition.html body*/
+
 #nutrition-jb .jumbotron {
     background-color: black;
     background-size: cover;
@@ -338,6 +333,7 @@ header {
     background-color: #FED000;
 }
 /*--------------------exercises.html*/
+
 #exercises-jb .jumbotron {
     background-color: black;
     background-size: cover;
@@ -382,6 +378,7 @@ header {
 }
 
 /*--------------------community.html*/
+
 #community-jb .jumbotron {
     background-color: black;
     height: 375px;
@@ -389,6 +386,7 @@ header {
 
 
 /*--------------------Media Queries*/
+
 @media(max-width: 576px) {
     #mission-statement {
         font-size: 12px;
