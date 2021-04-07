@@ -101,7 +101,6 @@ header {
     font-family: "Lato", sans-serif;
     text-align: right;
     font-size: 3.5vw;
-    font-weight: 150;
     color: #FED000;
 }
 
@@ -291,7 +290,6 @@ header {
 }
 
 .line-break-plan {
-    background-color: #FED000;
     border-left: 1px solid #FED000; 
     height: 220px; 
     position:absolute; 
@@ -382,6 +380,11 @@ header {
 #community-jb .jumbotron {
     background-color: black;
     height: 375px;
+}
+.embedded-media {
+    width: 100%;
+    height: 400px;
+    
 }
 
 
