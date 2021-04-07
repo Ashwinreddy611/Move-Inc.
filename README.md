@@ -5,11 +5,11 @@
 ### User Experience (UX)
         
 #### First Time Visitor Goals:
-a. As a forst time user I want to be able to understand the premise of the website as well as understand what the website and the company behind the website are attempting to provide me. 
+a. As a first time user I want to be able to understand the premise of the website as well as understand what the company behind the website are attempting to provide me. 
 
 b. I want to be able to navigate the website in a smooth and efficient fashion. The website's layout should be aesthetically pleasing and not cluttered with too many components. 
 
-c. As a first time user I want to be able to contact the creators of the website and be able to feel like there is an open dialogue between user and creator. This is done via an active contact form that envokes a quick response from the creators and working social media links. 
+c. As a first time user I want to be able to contact the creators of the website and be able to feel like there is an open dialogue between user and creator. 
 
 d. As a first time user I want to feel that there is a reason for me to come back to the website i.e. a paid secondary service additional to the primary purpose of the website which is the knowledge they are providing. 
 
@@ -22,7 +22,7 @@ a. As a returning visitor I want to find up to date knowledge as well as see the
 #### Frequent Visitor Goals:
 a. As a frequent visitor of the site I want to have all the requirements of a First Time and a Returning visitor but also be able to join an active newsletter that has all the updates of site owners, new and breaking news within the fitness community as well as success/motivational stories of beginner and continued users of the site. 
 
-b. As a frequent visitor I want to see a weekly update to the "mover of the week" section to see if I have made it, as well as access to the spotify playlist to fuel my workouts.  
+b. As a frequent visitor I want to see a weekly updates to the "mover of the week" section to see if I have made it, as well as access to the spotify playlist to fuel my workouts.  
 
 ### Design
 #### Imagery
@@ -50,7 +50,7 @@ b. As a frequent visitor I want to see a weekly update to the "mover of the week
  * Responsive Layout on all devices
 
 ## Technologies Used
-1. Bootstrap - A CDN that is a CSS framework that allows me to create a resposive structure for my website across many devices as well as use of javascript templates for impressive components that fit the aesthetic of Move Inc.
+1. Bootstrap - A CDN that is a CSS framework that allows me to create a responsive structure for my website across many devices as well as the use of javascript templates for impressive components that fit the aesthetic of Move Inc.
 
  2. Line Icons - A CDN that provides the icons that compliment the aesthetic of the website.
 
@@ -64,11 +64,11 @@ b. As a frequent visitor I want to see a weekly update to the "mover of the week
 
 ## Testing
 ### User Stories Testing for User experience 
-####  HTML and CSS vakidators 
+####  HTML and CSS validators 
 The W3C validators were used for all html and css used within this project and there were no syntax errors within any of the pages. 
 
 #### First Time Visitor Goals:
- a. As a first time user I want to be able to understand the premise of the website as well as understand what the website and the company behind the website are attempting to provide me.
+ a. As a first time user I want to be able to understand the premise of the website as well as understand what the company behind the website are attempting to provide me.
      
      i. When first time users first enter the website they are greeted with a crisp design and layout. They then can see the *Mission statement* where the company goals are outlined and the user is now able to ascertain the premise of the organisation and the website.
     ii. The user can now navigate the Nav bar which will provdie desired information or scroll down to learn more about the organisation and read verified testimonials from users. The user can scrooll even further to join the newsletter within the footer and click the social media links. 
@@ -81,7 +81,7 @@ b. I want to be able to navigate the website in a smooth and efficient fashion. 
     
     iii. The website uses components when needed and doesnt over do it so that there isn't a sensory overload for the user, this therefore avoids a displeasing experience for the user whilst maintaining functionality and interactivity. 
 
-c. As a first time user I want to be able to contact the creators of the website and be able to feel like there is an open dialogue between user and creator. This should be done via an active contact form that envokes a quick response from the creators and working social media links.
+c. As a first time user I want to be able to contact the creators of the website and be able to feel like there is an open dialogue between user and creator. 
     
      i. The user can access the *meet the team* section of the home page where they can read about the main team members who will handle all the user's health needs when being contacted. 
     
@@ -108,11 +108,11 @@ a. As a returning visitor I want to find up to date knowledge as well as see the
     i. Submitting requests for nutritional/exercise consultations have been designed to be quick and efficient. The contact page is accessible from the nav bar on all pages and the form is easily filled out. The requests are answered and appointments are organised within 24 hours of the initial input of the request. 
 
 #### Frequent Visitor Goals: 
-a. As a frequent visitor of the site I want to have all the requirements of a First Time and a Returning visitor but also be able to join an active community where a I am informed of all updates within the community. 
+a. As a frequent visitor of the site I want to have all the requirements of a First Time and a Returning visitor but also be able to join an active community where I am informed of all updates within the community. 
                 
-    i. The site has the mover of the week featue and the spotify playlist as mentioned previously but there is also the active social media links which have also been explained. The twitter platform specifically will be utilised to showcase inspirational quotes and useful snippets of information. 
+    i. The site has the mover of the week feature and the spotify playlist as mentioned previously but there is also the active social media links. The twitter platform specifically will be utilised to showcase inspirational quotes and useful snippets of information. 
                 
-    ii. The website also has an active newsletter, accessible at the footer of the page. This newsletter will update users of what is going on in the community, provide an insight of the day and showcase uplifting moments submitted by users. The newsletter and the social media platforms linked to Move Inc. will be used to communicate with users socials users can be a part of. 
+    ii. The website also has an active newsletter, accessible at the footer of the page. This newsletter will update users of what is going on in the community, provide an insight of the day and showcase uplifting moments submitted by users. The newsletter and the social media platforms linked to Move Inc. will be used to communicate socials users can be a part of. 
 
 b. As a frequent visitor I want to see a weekly update to the "mover of the week" section to see if I have made it, as well as access to the spotify playlist to fuel my workouts.
                 
@@ -134,12 +134,12 @@ i. The About section is located in the bottom left in the footer of the screen o
 ii. The section on all devices maintains it's aestheically pleasing nature whilst keeping the information viewable and easy to read. 
 
 #### Social Media Icons 
-i. When the social media links are clicked each link taked the user to the respected social media site in a new tab within the browser in keeping with best practices. 
+i. When the social media links are clicked each link takes the user to the respected social media site in a new tab within the browser in keeping with best practices. 
 
 ii. on screen sizes other then the desktop size the icons are just as functional in terms of taking the user to the required destination in a new tab. On screen sizes smaller than a tablet size, the icons make up the middle section of the vertical footer. 
 
 #### Join the Newsletter section 
-i. The signup button is fully functional and the target for this button is to trigger the modal where users can sign-up for the newsletter where the user can input their name and e-mail. The Newsletter is not functional yet in terms of storing the users details for signing them up to the newsletter. However it is functional in showing the intention for that feature and is functional on all screen sizes. 
+i. The signup button is fully functional and the target for this button is to trigger the modal where users can sign-up for the newsletter where the user can input their name and e-mail. The Newsletter is not functional yet in terms of storing the users details for signing them up to the newsletter. However it is functional in showing the intention for that feature and is responsive on all screen sizes. 
 
 ### Home Page Body
 #### Testimonial Section
