@@ -28,10 +28,10 @@ b. As a frequent visitor I want to see a weekly update to the "mover of the week
 #### Imagery
 * All the images on the Move Inc. website are sourced from the royalty free website called [Unsplash](https://unsplash.com/). These images are of active and avid fitness enthusiasts that are indicative of the our organisation's mission statement. 
 
-### Colour Theme  
+#### Colour Theme  
 * The colour theme of the website is a trio of Black, White and Yellow. These colours compliment each other very nicely and each colour is representative of an element of what Move Inc. stands for. Black represents authority, and we are all in charge of our fitness journeys. Yellow indicates energy and opitimism, which is how we view fitness and the art of movement. Finally White indicates new beginnings and is indicative to the fact anyone can start a new chapter in their life with improving their health.
         
-### Typography 
+#### Typography 
  * The fonts used are the Anton and the Lato font. These two fonts compliment each other very cleanly and smoothly. The Anton font is very bold, it stand out and is very much in your face whereas the Lato font is a sleek antithesis that is very much a clean and mild font that is widely used all around the world due to it's proffesional look.
 
 ## Features:
@@ -61,8 +61,10 @@ b. As a frequent visitor I want to see a weekly update to the "mover of the week
 
 ## Testing
 ### User Stories Testing for User experience 
-        
- #### First Time Visitor Goals:
+####  HTML and CSS vakidators 
+The W3C validators were used for all html and css used within this project and there were no syntax errors within any of the pages. 
+
+#### First Time Visitor Goals:
  a. As a first time user I want to be able to understand the premise of the website as well as understand what the website and the company behind the website are attempting to provide me.
      
      i. When first time users first enter the website they are greeted with a crisp design and layout. They then can see the *Mission statement* where the company goals are outlined and the user is now able to ascertain the premise of the organisation and the website.
@@ -197,7 +199,7 @@ i. The embedded map can be located just under the third section of the contact p
 ### Known Bugs 
 1) The testimonials on the home page on tablet screens shows the accompanying testimonal text for each image as slightly bigger than intended as so creates a more elongated look visually. 
 
-2) Within the footer on tablet screen sizes the instagram social media icon is underneath the other social media icons. 
+2) Within the footer on tablet screen sizes the instagram social media icon is underneath the other social media icons.
 
 ## Deployment
     
@@ -216,3 +218,8 @@ Here are the steps involved for deployment of the Move Inc. website:
 5. Finally click the save button and the site will refresh and profide the link of the published code.
 
 ## Credits 
+### Code and Content
+All code was written by Ashwin Reddy using the [Bootstrap](https://getbootstrap.com/) Css framework to ensure a fully responsice website was created. 
+
+### Media 
+All the images were sourced from the [Unsplash](https://unsplash.com/) website which is an open source site for images. 
