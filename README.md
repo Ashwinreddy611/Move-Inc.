@@ -222,7 +222,7 @@ Here are the steps involved for deployment of the Move Inc. website:
 
 ## Credits 
 ### Code and Content
-All code was written by Ashwin Reddy using the [Bootstrap](https://getbootstrap.com/) Css framework to ensure a fully responsice website was created. 
+All code was written by Ashwin Reddy using the [Bootstrap](https://getbootstrap.com/) Css framework to ensure a fully responsive website was created. 
 
 ### Media 
 All the images were sourced from the [Unsplash](https://unsplash.com/) website which is an open source site for images. 
