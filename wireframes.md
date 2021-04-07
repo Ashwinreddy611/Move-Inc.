@@ -1,0 +1,7 @@
+![Home Page Wireframe](assets/images/wireframes/homepagewireframe.jpg)
+![Exercises Page Wireframe](assets/images/wireframes/exercisespagewireframe.jpg)
+![Nutrition Page Wireframe](assets/images/wireframes/nutritionpagewireframe.jpg)
+![Community Page Wireframe](assets/images/wireframes/communitypagewireframe.jpg)
+![Contact Page Wireframe](assets/images/wireframes/contactpagewireframe.jpg)
+![Mobile view of wireframes pages 1,2 and 3](assets/images/wireframes/mobilewireframes123.jpg)
+![Mobile View of wireframes pages 4 and 5](assets/images/wireframes/mobilewireframes45.jpg)

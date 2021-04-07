@@ -34,6 +34,9 @@ b. As a frequent visitor I want to see a weekly update to the "mover of the week
 #### Typography 
  * The fonts used are the Anton and the Lato font. These two fonts compliment each other very cleanly and smoothly. The Anton font is very bold, it stand out and is very much in your face whereas the Lato font is a sleek antithesis that is very much a clean and mild font that is widely used all around the world due to it's proffesional look.
 
+ ### Wireframes
+ A seperate md file has been created for all wireframes found [Here](/wireframes.md)
+
 ## Features:
 * Modal - When submitting information for joining the newsletter.
 * Buttons - For interacting with the informational elements of the website.
