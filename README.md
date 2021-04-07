@@ -161,10 +161,43 @@ ii. Each card has a "Read More" button which would in practice take the user to 
 iii. The Information and the buttons use hover effects and can be seen when the cursor is hovered over the information and button. On touch screen devices the hover effect of the button can be seen momentarily when clicked and when the information is pressed the hover effect takes place. 
 
 #### Technique Critique Button 
-i. The technique critique button is located in the last section of the exercises body within the containing jumbotron. The button links to the contact page and in order to fill out the contact form so the user can obtain exercise consulattions. 
+i. The technique critique button is located in the last section of the exercises body within the containing jumbotron. The button links to the contact page and in order to fill out the contact form so the user can obtain exercise consulations. 
 
 ii. The button also uses hover effects and when the cursor is hovered over button the effect can be seen. On touch screen devices the effect can be seen as soon as the button is clicked.
 
+### Nutrition Page Body 
+#### Nutrition information cards
+i. The information cards for the nutrition page can be found in the middle third of the page body. The cards alignment is of one row composed of three cards that take up 33% of the width on desktop view and when tested on screen sizes smaller than tablets the cards correctly align in a block display taking up 100% of the width of the page. 
+
+ii. The Information and the buttons use hover effects and can be seen when the cursor is hovered over the information and button. On touch screen devices the hover effect of the button can be seen momentarily when clicked and when the information is pressed the hover effect takes place.
+
+#### Nutrition Plan Button 
+i. The nutrition plan button is located within the last third of the nutrition page body within the containing jumbotron similar to the technique critique button. This button also links to the contact page correctly so the user can fill out the contact form and obtain nutritional consultations.
+
+### Community Page Body
+#### Embedded Youtube video
+i. The embedded youtube video takes up one half of the second section of the page body. The section as a whole with the embedded spotify playlist is fully responsive to all screen sizes and both take up an equal half at all mentioned screen sizes as intended. The video is of the mover of the week which would be updated every week in keeping with the frequent visitor goals. 
+
+#### Embedded Spotify playlist 
+i. Much like the embedded youtube video the embedded spotify playlist makes up the second half of the second section of the community page body. When songs are clicked within the playlist the song preview plays as intended and if users would like to listen to the full songs of the playlist they must login and view the playlist on spotify which they can do from the embedded playlist by clicking the "log in" button. 
+
+#### Community Merchandise cards
+i. The community merchandise cards can be found in the final third of the community page body and take up 33% of the screen width as intended on desktop and tablet. On smaller devices the cards take a block display which take up 100% of the width as intended. 
+
+ii. The Information and the buttons use hover effects and can be seen when the cursor is hovered over the information and button. On touch screen devices the hover effect of the button can be seen momentarily when clicked and when the information is pressed the hover effect takes place.
+
+#### Contact Form 
+i. The contact form is located in the first third of the page and is fully functional. If required elements of the form are not filled out i.e. the full name an error message will become visible as intended to alert the user they must fill this part of the form in. This form takes up 100% of the screen width on all screen sizes as intended.
+
+ii. The contact form also allows for users to submit videos for exercise consultations and for potential "mover of the week" selections. When clicked the button successfully allows users to select videos and input them within the form. 
+
+#### Embedded Map
+i. The embedded map can be located just under the third section of the contact page and does not display any page content however it does show as intended the location of the Move Inc. headquarters for the users to see and this is successfully visible on all screen sizes.
+
+### Known Bugs 
+1) The testimonials on the home page on tablet screens shows the accompanying testimonal text for each image as slightly bigger than intended as so creates a more elongated look visually. 
+
+2) Within the footer on tablet screen sizes the instagram social media icon is underneath the other social media icons. 
 
 ## Deployment
     

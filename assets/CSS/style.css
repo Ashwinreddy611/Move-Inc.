@@ -71,7 +71,7 @@
 }
 
 .info-cards .info-card-body {
-    height: 350px;
+    height: 370px;
     display: inline-block;
     color: white;
 }
@@ -447,7 +447,6 @@ header {
     #plan-side-right {
         display: block;
         width:100%;
-
     }
     .plan-txt {
         font-size: 17px;
